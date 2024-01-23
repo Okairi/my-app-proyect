@@ -1,6 +1,13 @@
+import { UseRouterButton } from "@/components/UseRouterButton";
+function AboutHome() {
+  return (
+    <div>
+      <UseRouterButton />
+    </div>
+  );
+}
+
+export default AboutHome;
 export const metadata = {
   title: "About page",
 };
-export default function AboutHome() {
-  return <div>Hola About</div>;
-}
